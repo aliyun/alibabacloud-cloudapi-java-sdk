@@ -5,7 +5,7 @@ import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class CreatePluginResponseUnmarshaller {
     public static CreatePluginResponse unmarshall(CreatePluginResponse createPluginResponse, UnmarshallerContext context) {

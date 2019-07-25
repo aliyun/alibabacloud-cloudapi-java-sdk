@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class DescribePluginApisResponseUnmarshaller {
     public static DescribePluginApisResponse unmarshall(DescribePluginApisResponse describePluginApisResponse, UnmarshallerContext context) {

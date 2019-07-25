@@ -1098,9 +1098,7 @@ public class DescribeApiResponse extends AcsResponse {
 		}
 	}
 
-	/**
-	 * @version 4.9.1 add Qualifier
-	 */
+
 	public static class FunctionComputeConfig {
 
 		private String fcRegionId;

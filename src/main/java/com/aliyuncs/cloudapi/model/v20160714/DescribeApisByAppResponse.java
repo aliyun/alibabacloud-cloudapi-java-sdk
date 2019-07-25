@@ -25,7 +25,7 @@ import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
  * @author auto create
- * @version 
+ *
  */
 public class DescribeApisByAppResponse extends AcsResponse {
 

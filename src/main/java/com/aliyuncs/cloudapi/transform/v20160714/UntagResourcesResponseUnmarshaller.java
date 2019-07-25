@@ -4,9 +4,7 @@ import com.aliyuncs.cloudapi.model.v20160714.UntagResourcesResponse;
 import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
- * @Author: wangyu
- * @Description:
- * @Date: Created in 下午7:11 2019/6/24
+ *
  */
 public class UntagResourcesResponseUnmarshaller {
 

@@ -24,7 +24,7 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class ImportSwaggerRequest extends RpcAcsRequest<ImportSwaggerResponse> {
 

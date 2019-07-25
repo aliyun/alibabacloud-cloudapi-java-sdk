@@ -5,9 +5,7 @@ import java.util.List;
 import com.aliyuncs.RpcAcsRequest;
 
 /**
- * @Author: wangyu
- * @Description:
- * @Date: Created in 下午5:54 2019/6/24
+ *
  */
 public class TagResourcesRequest extends RpcAcsRequest<TagResourcesResponse> {
 

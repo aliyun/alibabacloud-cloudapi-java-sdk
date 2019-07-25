@@ -4,7 +4,7 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class DetachPluginRequest extends RpcAcsRequest<DetachPluginResponse> {
 

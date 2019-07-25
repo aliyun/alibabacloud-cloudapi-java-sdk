@@ -26,7 +26,6 @@ import java.util.List;
 
 /**
  * @author auto create
- * @version 
  */
 public class DescribeDeployedApisResponse extends AcsResponse {
 

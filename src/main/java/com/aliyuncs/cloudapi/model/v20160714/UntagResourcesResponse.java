@@ -6,9 +6,7 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
- * @Author: wangyu
- * @Description:
- * @Date: Created in 下午7:11 2019/6/24
+ *
  */
 public class UntagResourcesResponse extends AcsResponse {
 

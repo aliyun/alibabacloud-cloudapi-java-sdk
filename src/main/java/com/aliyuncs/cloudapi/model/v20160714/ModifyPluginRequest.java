@@ -4,7 +4,7 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class ModifyPluginRequest extends RpcAcsRequest<ModifyPluginResponse> {
 

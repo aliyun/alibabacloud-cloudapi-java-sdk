@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * @author auto create
- * @version 
+ *
  */
 public class DescribeApiDocResponse extends AcsResponse {
 

@@ -22,7 +22,6 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version 
  */
 public class DescribeAuthorizedApisRequest extends RpcAcsRequest<DescribeAuthorizedApisResponse> {
 	

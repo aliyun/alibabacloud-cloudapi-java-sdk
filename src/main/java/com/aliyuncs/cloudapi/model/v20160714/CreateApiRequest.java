@@ -26,8 +26,6 @@ import java.util.List;
 
 /**
  * @author auto create
- * @version
- * @version 4.9.1
  */
 public class CreateApiRequest extends RpcAcsRequest<CreateApiResponse> {
 	

@@ -6,7 +6,7 @@ import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class DeletePluginResponseUnmarshaller {
     public static DeletePluginResponse unmarshall(DeletePluginResponse deletePluginResponse, UnmarshallerContext context) {

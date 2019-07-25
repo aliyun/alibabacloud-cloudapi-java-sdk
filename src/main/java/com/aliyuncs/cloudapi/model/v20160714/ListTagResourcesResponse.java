@@ -8,9 +8,7 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
- * @Author: wangyu
- * @Description:
- * @Date: Created in 下午4:24 2019/6/24
+ *
  */
 public class ListTagResourcesResponse extends AcsResponse {
 

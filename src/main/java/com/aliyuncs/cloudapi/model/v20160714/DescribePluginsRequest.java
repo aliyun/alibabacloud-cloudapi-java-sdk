@@ -4,7 +4,6 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version
  */
 public class DescribePluginsRequest extends RpcAcsRequest<DescribePluginsResponse> {
 

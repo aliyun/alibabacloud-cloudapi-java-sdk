@@ -24,7 +24,7 @@ import com.aliyuncs.transform.UnmarshallerContext;
 
 /**
  * @author auto create
- * @version 
+ *
  */
 public class SetSignatureApisResponse extends AcsResponse {
 

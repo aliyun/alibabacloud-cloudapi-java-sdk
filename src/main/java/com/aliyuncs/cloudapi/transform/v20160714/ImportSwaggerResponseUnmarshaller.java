@@ -28,7 +28,7 @@ import java.util.List;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class ImportSwaggerResponseUnmarshaller {
     public static ImportSwaggerResponse unmarshall(ImportSwaggerResponse importSwaggerResponse,

@@ -11,7 +11,7 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version
+ *
  */
 public class SetVpcAccessRequest extends RpcAcsRequest<SetVpcAccessResponse> {
 

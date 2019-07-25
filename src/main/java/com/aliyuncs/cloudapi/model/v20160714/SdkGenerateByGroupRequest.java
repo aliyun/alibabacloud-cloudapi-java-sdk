@@ -22,7 +22,7 @@ import com.aliyuncs.RpcAcsRequest;
 
 /**
  * @author auto create
- * @version 
+ *
  */
 public class SdkGenerateByGroupRequest extends RpcAcsRequest<SdkGenerateByGroupResponse> {
 	
