@@ -18,7 +18,10 @@
  */
 package com.aliyuncs.cloudapi.model.v20160714;
 
+import java.util.List;
+
 import com.aliyuncs.RpcAcsRequest;
+import com.aliyuncs.cloudapi.openapi.sdk.entity.Tag;
 
 /**
  * @author auto create
@@ -36,6 +39,24 @@ public class DescribeAppAttributesRequest extends RpcAcsRequest<DescribeAppAttri
 	private Integer pageNumber;
 
 	private Integer pageSize;
+
+	private List<Tag> tags;
+
+	private Boolean enableTagAuth;
+
+	public List<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<Tag> tags) {
+		this.tags = tags;
+		if (tags != null) {
+			for (int i = 0; i < tags.size(); i++) {
+				putQueryParameter("Tag." + (i + 1) + ".Value" , tags.get(i).getValue());
+				putQueryParameter("Tag." + (i + 1) + ".Key" , tags.get(i).getKey());
+			}
+		}
+	}
 
 	public Long getAppId() {
 		return this.appId;
@@ -71,6 +92,15 @@ public class DescribeAppAttributesRequest extends RpcAcsRequest<DescribeAppAttri
 	public void setPageSize(Integer pageSize) {
 		this.pageSize = pageSize;
 		putQueryParameter("PageSize", pageSize);
+	}
+
+	public Boolean getEnableTagAuth() {
+		return enableTagAuth;
+	}
+
+	public void setEnableTagAuth(Boolean enableTagAuth) {
+		this.enableTagAuth = enableTagAuth;
+		putQueryParameter("EnableTagAuth", enableTagAuth);
 	}
 
 	@Override

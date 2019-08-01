@@ -18,7 +18,10 @@
  */
 package com.aliyuncs.cloudapi.model.v20160714;
 
+import java.util.List;
+
 import com.aliyuncs.RpcAcsRequest;
+import com.aliyuncs.cloudapi.openapi.sdk.entity.Tag;
 
 /**
  * @author auto create
@@ -35,6 +38,22 @@ public class CreateApiGroupRequest extends RpcAcsRequest<CreateApiGroupResponse>
 	private String groupName;
 
 	private String description;
+
+	private List<Tag> tags;
+
+	public List<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<Tag> tags) {
+		this.tags = tags;
+		if (tags != null) {
+			for (int i = 0; i < tags.size(); i++) {
+				putQueryParameter("Tag." + (i + 1) + ".Value" , tags.get(i).getValue());
+				putQueryParameter("Tag." + (i + 1) + ".Key" , tags.get(i).getKey());
+			}
+		}
+	}
 
 	public String getInstanceId() {
 		return instanceId;
