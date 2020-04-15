@@ -50,11 +50,11 @@
             <distribution></distribution>
         </license>
     </licenses>
-    <!--<scm>
-    <connection>scm:git:git://github.com/aliyun/aliyun-openapi-java-sdk.git</connection>
-    <developerConnection>scm:git:git@github.com:aliyun/aliyun-openapi-java-sdk.git</developerConnection>
-    <url>https://github.com/aliyun/aliyun-openapi-java-sdk</url>&ndash;&gt;
-    </scm>-->
+    <scm>
+    <connection>scm:git:git://github.com/aliyun/alibabacloud-cloudapi-java-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:aliyun/alibabacloud-cloudapi-java-sdk.git</developerConnection>
+    <url>https://github.com/aliyun/aliyun-openapi-java-sdk</url>
+    </scm>
     <developers>
         <developer>
             <id>aliyunproducts</id>
@@ -63,7 +63,7 @@
         </developer>
     </developers>
     <build>
-        <pluginManagement>
+
          <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -126,6 +126,6 @@
                 </configuration>
             </plugin>
          </plugins>
-        </pluginManagement>
+
     </build>
 </project>
