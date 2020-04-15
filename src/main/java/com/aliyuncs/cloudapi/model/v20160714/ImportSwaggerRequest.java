@@ -40,6 +40,17 @@ public class ImportSwaggerRequest extends RpcAcsRequest<ImportSwaggerResponse> {
 
     private String groupId;
 
+    private String globalCondition;
+    
+    public String getGlobalCondition() {
+        return globalCondition;
+    }
+
+    public void setGlobalCondition(String globalCondition) {
+        this.globalCondition = globalCondition;
+        putQueryParameter("GlobalCondition", globalCondition);
+    }
+    
     public String getGroupId() {
         return groupId;
     }
