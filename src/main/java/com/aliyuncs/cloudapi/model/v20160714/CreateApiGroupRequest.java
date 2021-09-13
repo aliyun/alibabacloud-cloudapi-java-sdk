@@ -18,10 +18,10 @@
  */
 package com.aliyuncs.cloudapi.model.v20160714;
 
-import java.util.List;
-
 import com.aliyuncs.RpcAcsRequest;
 import com.aliyuncs.cloudapi.openapi.sdk.entity.Tag;
+
+import java.util.List;
 
 /**
  * @author auto create
@@ -38,6 +38,8 @@ public class CreateApiGroupRequest extends RpcAcsRequest<CreateApiGroupResponse>
 	private String groupName;
 
 	private String description;
+
+	private String basePath;
 
 	private List<Tag> tags;
 
@@ -80,6 +82,15 @@ public class CreateApiGroupRequest extends RpcAcsRequest<CreateApiGroupResponse>
 	public void setDescription(String description) {
 		this.description = description;
 		putQueryParameter("Description", description);
+	}
+
+	public String getBasePath() {
+		return basePath;
+	}
+
+	public void setBasePath(String basePath) {
+		this.basePath = basePath;
+		putQueryParameter("BasePath", basePath);
 	}
 
 	@Override

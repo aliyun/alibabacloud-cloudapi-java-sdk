@@ -86,6 +86,8 @@ public class DescribeApiGroupsResponse extends AcsResponse {
 
 		private String groupName;
 
+		private String basePath;
+
 		private String subDomain;
 
 		private String description;
@@ -201,6 +203,14 @@ public class DescribeApiGroupsResponse extends AcsResponse {
 
 		public void setHttpsPolicy(String httpsPolicy) {
 			this.httpsPolicy = httpsPolicy;
+		}
+
+		public String getBasePath() {
+			return basePath;
+		}
+
+		public void setBasePath(String basePath) {
+			this.basePath = basePath;
 		}
 
 		public enum BillingStatus {
