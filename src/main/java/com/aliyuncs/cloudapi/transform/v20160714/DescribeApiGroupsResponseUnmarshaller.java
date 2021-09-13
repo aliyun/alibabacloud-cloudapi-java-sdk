@@ -42,6 +42,7 @@ public class DescribeApiGroupsResponseUnmarshaller {
 			ApiGroupAttribute apiGroupAttribute = new ApiGroupAttribute();
 			apiGroupAttribute.setGroupId(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].GroupId"));
 			apiGroupAttribute.setGroupName(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].GroupName"));
+			apiGroupAttribute.setBasePath(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].BasePath"));
 			apiGroupAttribute.setSubDomain(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].SubDomain"));
 			apiGroupAttribute.setDescription(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].Description"));
 			apiGroupAttribute.setCreatedTime(context.stringValue("DescribeApiGroupsResponse.ApiGroupAttributes["+ i +"].CreatedTime"));

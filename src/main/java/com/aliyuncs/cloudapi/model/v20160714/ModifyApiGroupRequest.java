@@ -36,6 +36,14 @@ public class ModifyApiGroupRequest extends RpcAcsRequest<ModifyApiGroupResponse>
 
 	private String description;
 
+	private String userLogConfig;
+
+	private String customTraceConfig;
+
+	private String defaultDomain;
+
+	private String basePath;
+
 	public String getGroupId() {
 		return this.groupId;
 	}
@@ -61,6 +69,42 @@ public class ModifyApiGroupRequest extends RpcAcsRequest<ModifyApiGroupResponse>
 	public void setDescription(String description) {
 		this.description = description;
 		putQueryParameter("Description", description);
+	}
+
+	public String getUserLogConfig() {
+		return userLogConfig;
+	}
+
+	public void setUserLogConfig(String userLogConfig) {
+		this.userLogConfig = userLogConfig;
+		putQueryParameter("UserLogConfig", userLogConfig);
+	}
+
+	public String getCustomTraceConfig() {
+		return customTraceConfig;
+	}
+
+	public void setCustomTraceConfig(String customTraceConfig) {
+		this.customTraceConfig = customTraceConfig;
+		putQueryParameter("CustomTraceConfig", customTraceConfig);
+	}
+
+	public String getDefaultDomain() {
+		return defaultDomain;
+	}
+
+	public void setDefaultDomain(String defaultDomain) {
+		this.defaultDomain = defaultDomain;
+		putQueryParameter("DefaultDomain", defaultDomain);
+	}
+
+	public String getBasePath() {
+		return basePath;
+	}
+
+	public void setBasePath(String basePath) {
+		this.basePath = basePath;
+		putQueryParameter("BasePath", basePath);
 	}
 
 	@Override

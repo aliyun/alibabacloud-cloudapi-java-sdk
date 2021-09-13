@@ -64,6 +64,10 @@ public class DescribeApiGroupResponse extends AcsResponse {
 
 	private String httpsPolicy;
 
+	private String basePath;
+
+	private String defaultDomain;
+
 	public String getRequestId() {
 		return this.requestId;
 	}
@@ -198,6 +202,22 @@ public class DescribeApiGroupResponse extends AcsResponse {
 
 	public void setHttpsPolicy(String httpsPolicy) {
 		this.httpsPolicy = httpsPolicy;
+	}
+
+	public String getBasePath() {
+		return basePath;
+	}
+
+	public void setBasePath(String basePath) {
+		this.basePath = basePath;
+	}
+
+	public String getDefaultDomain() {
+		return defaultDomain;
+	}
+
+	public void setDefaultDomain(String defaultDomain) {
+		this.defaultDomain = defaultDomain;
 	}
 
 	public static class DomainItem {

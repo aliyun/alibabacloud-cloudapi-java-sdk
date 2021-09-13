@@ -34,6 +34,7 @@ public class DescribeApiGroupResponseUnmarshaller {
         describeApiGroupResponse.setRequestId(context.stringValue("DescribeApiGroupResponse.RequestId"));
         describeApiGroupResponse.setGroupId(context.stringValue("DescribeApiGroupResponse.GroupId"));
         describeApiGroupResponse.setGroupName(context.stringValue("DescribeApiGroupResponse.GroupName"));
+        describeApiGroupResponse.setBasePath(context.stringValue("DescribeApiGroupResponse.BasePath"));
         describeApiGroupResponse.setSubDomain(context.stringValue("DescribeApiGroupResponse.SubDomain"));
         describeApiGroupResponse.setDescription(context.stringValue("DescribeApiGroupResponse.Description"));
         describeApiGroupResponse.setCreatedTime(context.stringValue("DescribeApiGroupResponse.CreatedTime"));
@@ -46,6 +47,7 @@ public class DescribeApiGroupResponseUnmarshaller {
         describeApiGroupResponse.setVpcDomain(context.stringValue("DescribeApiGroupResponse.VpcDomain"));
         describeApiGroupResponse.setInstanceId(context.stringValue("DescribeApiGroupResponse.InstanceId"));
         describeApiGroupResponse.setHttpsPolicy(context.stringValue("DescribeApiGroupResponse.HttpsPolicy"));
+        describeApiGroupResponse.setDefaultDomain(context.stringValue("DescribeApiGroupResponse.DefaultDomain"));
 
         List<DomainItem> customDomains = new ArrayList<DomainItem>();
         for (int i = 0; i < context.lengthValue("DescribeApiGroupResponse.CustomDomains.Length"); i++) {
